@@ -13,6 +13,9 @@ import Section5 from "./components/Section5.jsx";
 import Section6 from "./components/Section6.jsx";
 import Footer from "./components/Footer.jsx";
 
+// ⬇️ Added: import the demo contact form
+import DemoContact from "./components/demo/DemoContact.jsx";
+
 export default function App() {
   useLenis();
   useAudiraScenes();
@@ -29,6 +32,9 @@ export default function App() {
         <Section4 />
         <Section5 />
         <Section6 />
+
+        {/* ⬇️ Added: contact form as the last section */}
+        <DemoContact />
       </div>
       <Footer />
     </>

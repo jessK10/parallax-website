@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# (Optional) cache node_modules for faster builds
+[build.environment]
+  NPM_FLAGS = "--legacy-peer-deps"
+
+# (Optional) headers, security tweaks, etc. can go here
