@@ -1,6 +1,6 @@
 // src/App.jsx
 import React from "react";
-import useLenis from "./gsap/useLenis.js";           // ✅ only here
+import useLenis from "./gsap/useLenis.js";
 import useAudiraScenes from "./gsap/useAudiraScenes.js";
 
 import Navbar from "./components/Navbar.jsx";
@@ -14,8 +14,8 @@ import Section6 from "./components/Section6.jsx";
 import Footer from "./components/Footer.jsx";
 
 export default function App() {
-  useLenis();          // run once, app-wide
-  useAudiraScenes();   // run once, app-wide
+  useLenis();
+  useAudiraScenes();
 
   return (
     <>
