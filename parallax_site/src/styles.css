@@ -305,7 +305,7 @@ header .logo{ width: 132px; }
   background-clip: text;
 
   /* ensures gradient text renders in Chrome/Safari after build */
-  -webkit-text-fill-color: transparent;
+ /* -webkit-text-fill-color: transparent;*/
 
   font-size: clamp(3rem, 11.5vw, 12rem);
   line-height: .84;                 
