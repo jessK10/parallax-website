@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="w-full">
       {/* your footer content */}
-      <img className="logo" src="/images/logo.png" alt="Audira" />
+      <img className="logo" src="/assets/logo.png" alt="Sonexa" />
       <div className="social">
         {/* … */}
       </div>

@@ -38,7 +38,7 @@ export default function DemoContact(){
   return (
     <section id="demo-contact" className="demo-contact w-full">
       <h3 className="heading" style={{ fontSize: "clamp(1.8rem,6vw,3rem)" }}>
-        Contact (Demo)
+        Contact 
       </h3>
 
       <form className="demo-form" onSubmit={onSubmit} noValidate>
@@ -95,7 +95,7 @@ export default function DemoContact(){
             aria-describedby="demo-agree-hint"
           />
           <label htmlFor="demo-agree" className="req" style={{ margin: 0 }}>
-            I accept the demo terms (no data will be sent).
+            I accept the  terms (no data will be sent).
           </label>
         </div>
         {touched.agree && errs.agree ? <div id="demo-agree-hint" className="hint">{errs.agree}</div> : null}
@@ -104,7 +104,7 @@ export default function DemoContact(){
 
         <div className="demo-actions">
           <button className="btn radius" type="submit" disabled={submitting}>
-            {submitting ? "Checking…" : "Submit (Demo)"}
+            {submitting ? "Checking…" : "Submit"}
           </button>
           <button
             type="button"

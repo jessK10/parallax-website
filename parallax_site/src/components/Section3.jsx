@@ -9,7 +9,7 @@ export default function Section3(){
           <source src="/assets/video.mp4" type="video/mp4" />
         </video>
         <div className="content">
-          <p>Crafted for the modern audiophile, Audira headphones deliver sound so rich, it pulses through your senses.</p>
+          <p>Crafted for the modern audiophile, Sonexa headphones deliver sound so rich, it pulses through your senses.</p>
           <p>With Masterbeat, music becomes your personal soundtrack—bold, immersive, unforgettable.</p>
         </div>
       </div>

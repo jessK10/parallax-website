@@ -24,8 +24,8 @@ export default function App() {
     <>
       <div className="header-spacer" />
       <div id="main" className="w-full">
-        <Navbar />
         <Headphone />
+        <Navbar />
         <Section1 />
         <Section2 />
         <Section3 />
