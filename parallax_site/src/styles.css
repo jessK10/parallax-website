@@ -122,9 +122,9 @@ header .logo{ width: 132px; }
   background-clip: text;
 
   /* ensures gradient text renders in Chrome/Safari after build */
-  -webkit-text-fill-color: transparent;
+  
 
-  font-size: clamp(3rem, 11.5vw, 12rem);
+  font-size: clamp(5rem, 15.5vw, 15rem);
   line-height: .84;                 
   margin: 0;
   letter-spacing: .01em;            
@@ -293,26 +293,26 @@ header .logo{ width: 132px; }
 #section1{
   height: 100vh;
   width: 60vw;
-  margin: auto; display: flex; align-items: center; text-align: center; justify-content: center;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
-#section1 .heading{
-  /* fallback color if background-clip is unsupported */
-  color: var(--primary-color);
 
-  /* gradient ink */
+#section1 .heading{
+  color: var(--primary-color);
   background: linear-gradient(180deg, var(--secondary-color) 0%, var(--primary-color) 90%);
-  -webkit-background-clip: text;
   background-clip: text;
 
-  /* ensures gradient text renders in Chrome/Safari after build */
- /* -webkit-text-fill-color: transparent;*/
-
   font-size: clamp(3rem, 11.5vw, 12rem);
-  line-height: .84;                 
+  line-height: .84;
   margin: 0;
-  letter-spacing: .01em;            
-  font-weight: 800;                 
+  letter-spacing: .01em;
+  font-weight: 800;
 }
+
+
 /* per-letter layout & spacing */
 #section1 .row{ display: inline-flex; gap: clamp(.02em, .55vw, .16em); }
 .heading .row + br + .row { margin-top: .08em; display: inline-flex; }
